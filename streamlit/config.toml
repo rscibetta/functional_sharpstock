@@ -1,0 +1,25 @@
+[theme]
+# SharpStock Brand Colors
+#primaryColor = "#0EA5E9"           # Electric blue - main brand color
+#backgroundColor = "#1F2937"        # Dark background
+#secondaryBackgroundColor = "#374151" # Card/surface color
+#textColor = "#FFFFFF"              # White text
+#font = "sans-serif"                # Clean modern font
+
+# Advanced theming (Streamlit 2025 features)
+base = "dark"                      # Dark theme base
+headingFont = "sans-serif"         # Heading font
+baseRadius = "medium"              # Rounded corners
+borderColor = "#0EA5E9"            # Brand border color
+showWidgetBorder = true            # Show widget borders
+
+# Custom font faces (optional)
+[[theme.fontFaces]]
+family = "Inter"
+url = "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+
+[server]
+maxUploadSize = 200               # Increase upload limit if needed
+
+[browser]
+gatherUsageStats = false          # Privacy

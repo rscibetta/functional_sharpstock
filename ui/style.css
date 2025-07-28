@@ -1,0 +1,54 @@
+:root {
+    --primary: #0EA5E9;
+    --primary-dark: #0284C7;
+    --primary-light: #38BDF8;
+    --secondary: #9CA3AF;
+    --background: #1F2937;
+    --surface: #374151;
+    --surface-light: #4B5563;
+    --text-primary: #FFFFFF;
+    --text-secondary: #D1D5DB;
+    --text-muted: #9CA3AF;
+    --success: #10B981;
+    --warning: #F59E0B;
+    --error: #EF4444;
+    --accent: #8B5CF6;
+    
+    --border-radius: 12px;
+    --border-radius-sm: 6px;
+    --border-radius-lg: 20px;
+    
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    --shadow-glow: 0 0 20px rgba(14, 165, 233, 0.3);
+}
+
+.sharpstock-card {
+    background: var(--surface);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.sharpstock-card:hover {
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-2px);
+}
+
+.metric-card {
+    background: linear-gradient(135deg, var(--surface) 0%, var(--surface-light) 100%);
+    border-left: 4px solid var(--primary);
+}
+
+.critical-alert {
+    border-left-color: var(--error);
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, var(--surface) 100%);
+}
+
+.success-card {
+    border-left-color: var(--success);
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, var(--surface) 100%);
+}
