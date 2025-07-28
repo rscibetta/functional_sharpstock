@@ -1,0 +1,31 @@
+
+# Complete requirements.txt for SharpStock deployment
+# Add this to your requirements.txt file
+
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+cryptography>=41.0.0
+typing-extensions>=4.7.0
+requests>=2.31.0
+urllib3>=2.0.0
+plotly>=5.15.0
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+pytz>=2023.3
+python-dateutil>=2.8.2
+six>=1.16.0
+certifi>=2023.7.22
+charset-normalizer>=3.2.0
+idna>=3.4
+setuptools>=68.0.0
+wheel>=0.41.0
+
+# Database related (if you're using SQLite/PostgreSQL)
+sqlite3
+
+# Optional: If you're using any of these
+# psycopg2-binary>=2.9.7  # For PostgreSQL
+# sqlalchemy>=2.0.0       # For ORM
+# bcrypt>=4.0.0           # For password hashing
